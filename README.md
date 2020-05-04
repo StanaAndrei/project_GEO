@@ -1,2 +1,3 @@
 # project_GEO
-site prezentare proiect geogra
+#Gyula
+site prezentare proiect geogra(orasul Gyula)
