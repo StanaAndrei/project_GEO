@@ -1,2 +1,2 @@
 # project_GEO
-site prezentare proiect geogra(orasul Gyula)
+site prezentare proiect geogra(orasul Gyula)!
