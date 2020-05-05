@@ -1,0 +1,7 @@
+
+
+#main_title, #texts {
+    text-align: center;
+    display: inline;
+    white-space: nowrap;
+}
