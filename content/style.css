@@ -107,6 +107,10 @@ header{
 }
 
 footer{
-    background-color: #0f1011;
-    padding: 40px;
+    background-color: black;
+    padding: 30px;
+}
+
+footer > p{
+    color: blue;
 }
