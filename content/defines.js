@@ -21,9 +21,11 @@ const headerHTMLstream = '<header>'+
        '<button class="dropbtn">Menu  <i class="las la-level-down-alt">'+
        '</i></button>'+
        '<div class="dropdown-content">'+
-        '<a href="#">Link 1</a>'+
-         '<a href="#">Link 2</a>'+
-         '<a href="#">Link 3</a>'+
+        '<a href="#">Cultura</a>'+
+         '<a href="#">Mancare</a>'+
+         '<a href="#">Istorie</a>'+
+         '<a href="#">Geografie</a>'+
+         '<a href="#">Turism</a>'+
        '</div>'+
      '</div>'+
      '<button onclick = "toMainPage()" class="button button1"> <i class="las la-home"></i></button>'+
