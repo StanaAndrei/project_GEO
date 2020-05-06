@@ -17,7 +17,16 @@ const headerHTMLstream = '<header>'+
         '<h1 id = "main_title" >Gyula</h1>'+
     '</div>'+
     '<div id = "aut">'+
-       '<p id="taut">Autori:Stana Andrei, Drug Erick Robert.........</p>'+
+       '<div class="dropdown">'+
+       '<button class="dropbtn">Menu  <i class="las la-level-down-alt">'+
+       '</i></button>'+
+       '<div class="dropdown-content">'+
+        '<a href="#">Link 1</a>'+
+         '<a href="#">Link 2</a>'+
+         '<a href="#">Link 3</a>'+
+       '</div>'+
+     '</div>'+
+     '<button onclick = "toMainPage()" class="button button1"> <i class="las la-home"></i></button>'+
     '</div>'+
 '</div>'+
 '</header>';

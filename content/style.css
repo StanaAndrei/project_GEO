@@ -1,4 +1,4 @@
-  
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,7 +56,7 @@ img[alt=logo] {
 }
 body{
     background-repeat: no-repeat;
-}
+}/*/
 /*main*/
 
 :root{
@@ -83,7 +83,7 @@ body{
 }
 
 #main_title{
-    color: rgba(22, 12, 12, 0.438);
+    color: rgba(255, 0, 0, 0.438);
     font-size: 100px;
     padding: 29%;
 }
@@ -93,18 +93,88 @@ img{
 }
 
 header{
-    background-color: rgba(201, 171, 5, 0.99);
+    background-color: #0f1011;
     padding: 15px;
 }
 
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 20px;;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+.button1:hover{
+    background-color: green;
+}
+
+.las la-level-down-alt{
+    color: #4CAF50;
+}
+
 #mainCont{
+    position: relative;
     padding: 400px;
     background-image:
      url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arad_Josephinische_Landesaufnahme_pg23-27.jpg/1280px-Arad_Josephinische_Landesaufnahme_pg23-27.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
+    /*for text*/
+    border: red;
 }
+
+#mtext{
+    left: 30px;
+    color: red;
+    width: 300px;
+    float: left;
+    text-align: left;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+/*menu begin*/
+.dropbtn {
+    border: 2px solid #4CAF50;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px red;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(0, 17, 255);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*menu end*/
 
 footer{
     background-color: black;
@@ -112,5 +182,5 @@ footer{
 }
 
 footer > p{
-    color: blue;
+    color: rgb(9, 9, 199);
 }
