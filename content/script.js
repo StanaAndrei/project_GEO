@@ -8,7 +8,8 @@ load_HTMLstream = (sval) => {
 }
 
 toMainPage = () => {
-    let arrWs = window.location.href.split("/");
+    let cHref = window.location.href;
+    let arrWs = cHref.split("/");
     if (arrWs[arrWs.length - 1] === "index.html")
         alert("Esti deja pe pagina principala!");
     else
