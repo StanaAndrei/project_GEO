@@ -10,10 +10,11 @@ load_HTMLstream = (sval) => {
 toMainPage = () => {
     let cHref = window.location.href;
     let arrWs = cHref.split("/");
-    if (arrWs[arrWs.length - 1] === "index.html")
+    let last = arrWs.length - 1;
+    if (arrWs[last] === "index.html" || arrWs[last - 1] === "project_GEO")
         alert("Esti deja pe pagina principala!");
     else
-        location.replace("../../index.html");
+        location.replace("../../index.html");//*/
 }
 
 $(document).ready(function() {
