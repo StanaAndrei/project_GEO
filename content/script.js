@@ -11,6 +11,9 @@ toMainPage = () => {
     let cHref = window.location.href;
     let arrWs = cHref.split("/");
     let last = arrWs.length - 1;
+    display(arrWs);
+    display(arrWs[last]);
+    display(arrWs[last - 1]);
     if (arrWs[last] === "index.html" || arrWs[last - 1] === "project_GEO")
         alert("Esti deja pe pagina principala!");
     else
