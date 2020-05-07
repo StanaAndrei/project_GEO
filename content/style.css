@@ -199,3 +199,24 @@ footer > p{
 h5{
     font-size: 17px;;
 }
+
+#spage_main_cont{
+    padding-left: 20px;
+    max-width: 700px;
+    text-align: center;
+    display: inline-block;
+   /* display: inline;/*/
+}
+
+#sty{
+    display: inline-block;
+    padding: 100px;
+}
+
+#sty > img{
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 290px;
+}
