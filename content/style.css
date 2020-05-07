@@ -126,6 +126,7 @@ header{
 }
 
 #mtext{
+    background-color: aqua;
     left: 30px;
     color: red;
     width: 300px;
@@ -183,4 +184,18 @@ footer{
 
 footer > p{
     color: rgb(9, 9, 199);
+}
+/*SUB PAGES:*/
+#spage_main_cont{
+    color: black;
+}
+
+#atr_title{
+    font-size: 25px;;
+    padding: 20px;
+    color: black;
+}
+
+h5{
+    font-size: 17px;;
 }
