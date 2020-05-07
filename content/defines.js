@@ -33,6 +33,22 @@ const headerHTMLstream = '<header>'+
 '</div>'+
 '</header>';
 
-var assoc_data = []
+var assoc_data = [];
 assoc_data["footer"] = footerHTMLstream;
 assoc_data["header"] = headerHTMLstream;
+//food:
+var fdata = [
+'Pronunțat „guiaș”, este, probabil, cel mai cunoscut preparat unguresc. Poate fi o supă sau o tocăniță, făcută din legume și carne, de obicei de vită sau porc, asezonată cu multă'+
+'paprică (boia de ardei). Printre legumele aflate în lista ingredientelor se află de obicei cartofii, morcovii, rădăcina de pătrunjel, țelină sau ardei gras.'+
+'Gulyásul a fost creat pentru prima dată în secolul al IX-lea de către ciobani și ciurdari. Este făcut de obicei într-un ceaun, deasupra unui foc de lemne.',
+'Nu, nicio pasăre nu a fost rănită în prepararea acestui desert. Laptele de pasăre e un desert de origine maghiară, compus dintr-o cremă supă de vanilie, cu bulgărași de albuș de ou,'+
+'bătut spumă cu zahăr și vanilie. Bulgărașii de albuș sunt coborâți cu o lingură în crema de vanilie și fierți acolo. Textura cremoasă a budincii de vanilie se îmbină perfect cu'+
+'textura aerată a bulgărașilor de albuș de ou.',
+'Ceea ce vezi în imagine te-ar putea duce cu gândul la un desert, însă, deși este dulce, nu este consumată ca desert, ci ca fel principal. Meggyleves este o supă dulce, de vișine,'+
+ 'făcută cu smântână și servită rece, în anotimpul cald.',
+ 'Papricașul de pui, așa cum este cunoscut la noi, este consumat de cele mai multe ori pe paste sau găluște (sau mămăligă, în România). Este un fel de tocăniță de pui, făcută cu'+
+'smântână și paprică, de unde îi vine și numele. E o mâncare condimentată, delicioasă atunci când este mâncată caldă.',
+'Acest preparat se traduce în română ca ardei umpluți. Rețeta se găsește, adaptată, și în România, însă este făcută original în Ungaria. Ardeilor grași le este îndepărtată coada'+
+'și seminţele și sunt umpluți cu un amestec de carne, orez și legume, după care sunt gătiți în sos.'
+];
+
