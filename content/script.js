@@ -2,8 +2,7 @@ display = (x) => {
     console.log(x);//for debug
 }
 
-load_HTMLstream = (sval) => {
-    display("inStream");
+renderHTMLstream = (sval) => {
     document.getElementById(sval).innerHTML = assoc_data[sval];
 }
 
@@ -11,17 +10,28 @@ toMainPage = () => {
     let cHref = window.location.href;
     let arrWs = cHref.split("/");
     let last = arrWs.length - 1;
-    display(arrWs);
-    display(arrWs[last]);
-    display(arrWs[last - 1]);
     if (arrWs[last] === "index.html" || arrWs[last - 1] === "project_GEO")
         alert("Esti deja pe pagina principala!");
     else
         location.replace("../../index.html");//*/
 }
 
-$(document).ready(function() {
-        display("works");
-        load_HTMLstream("header");
-        load_HTMLstream("footer");
+function playAudio(){
+    document.getElementById("myaudio").focus();
+
+}
+//st
+//end
+
+setBrakes = () =>{
+
+}
+
+const audioAdd = "content/audio/audioBG.mp3";
+$(document).ready(function() { 
+    display("works");
+        //playAudio(audioAdd);
+        renderHTMLstream("header");
+        renderHTMLstream("footer");
+        
 });

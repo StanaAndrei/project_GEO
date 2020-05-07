@@ -136,6 +136,15 @@ header{
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    /*end org*/
+    text-decoration: none;
+    opacity: 0.9;
+    color: rgb(255, 0, 0)1);
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 /*menu begin*/
@@ -201,6 +210,14 @@ h5{
 }
 
 #spage_main_cont{
+    text-decoration: none;
+    opacity: 0.9;
+    color: rgba(0, 0, 0, 0.61);
+    letter-spacing: 3px;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text up*/
     padding-left: 20px;
     max-width: 700px;
     text-align: center;
@@ -219,4 +236,16 @@ h5{
     border-radius: 50%;
     padding: 5px;
     width: 290px;
+}
+/*audio*/
+b{
+    font-weight: 200;
+    font-size: larger;
+    color: brown;
+}
+
+#mapLink{
+    color: red;
+    text-decoration: underline overline;
+    
 }
