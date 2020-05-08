@@ -1,10 +1,9 @@
 const footerHTMLstream = 
-"<footer>"+
-
-"<p>prezentare Gyula!"+
-"<br>"+
-"de Drug Erick și Stana Andrei"+
-"</p></footer>";
+'<footer>'+
+'<p>prezentare Gyula!'+
+'<br>'+
+'de Drug Erick și Stana Andrei'+
+'</p></footer>';
 
 const headerHTMLstream = '<header>'+
 '<div id="container" style="white-space:nowrap">'+
@@ -21,11 +20,11 @@ const headerHTMLstream = '<header>'+
        '<button class="dropbtn">Menu  <i class="las la-level-down-alt">'+
        '</i></button>'+
        '<div class="dropdown-content">'+
-        '<a href="#">Cultura</a>'+
-         '<a href="#">Mancare</a>'+
-         '<a href="#">Istorie</a>'+
-         '<a href="#">Geografie</a>'+
-         '<a href="#">Turism</a>'+
+        '<a onclick="lc_triggered(0)">Cultura</a>'+
+         '<a onclick="lc_triggered(1)">Mancare</a>'+
+         '<a onclick="lc_triggered(2)">Istorie</a>'+
+         '<a onclick="lc_triggered(3)">Geografie</a>'+
+         '<a onclick="lc_triggered(4)">Turism</a>'+
        '</div>'+
      '</div>'+
      '<button onclick = "toMainPage()" class="button button1"> <i class="las la-home"></i></button>'+
@@ -37,7 +36,7 @@ var assoc_data = [];
 assoc_data["footer"] = footerHTMLstream;
 assoc_data["header"] = headerHTMLstream;
 //food:
-var fdata = [
+const fdata = [
 'Pronunțat „guiaș”, este, probabil, cel mai cunoscut preparat unguresc. Poate fi o supă sau o tocăniță, făcută din legume și carne, de obicei de vită sau porc, asezonată cu multă'+
 'paprică (boia de ardei). Printre legumele aflate în lista ingredientelor se află de obicei cartofii, morcovii, rădăcina de pătrunjel, țelină sau ardei gras.'+
 'Gulyásul a fost creat pentru prima dată în secolul al IX-lea de către ciobani și ciurdari. Este făcut de obicei într-un ceaun, deasupra unui foc de lemne.',
@@ -52,3 +51,4 @@ var fdata = [
 'și seminţele și sunt umpluți cu un amestec de carne, orez și legume, după care sunt gătiți în sos.'
 ];
 
+const numToPage = ['cult.html', 'food.html', 'history.html', 'place.html', 'tourism.html'];
