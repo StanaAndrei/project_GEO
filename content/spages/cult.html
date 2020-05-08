@@ -15,9 +15,17 @@
          type = "image/x-icon"> 
         <title>Prezentare Gyula</title>
     </head>
-    <body>
+    <body><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div id = "header"></div>
+        <p id="idk">Cultura</p>
         <div id = "spage_main_cont">
+            Muzica specifica:
+            <div id = "BRs" data-nrBrs = "2"></div>
+            <audio autoplay="" controls id = "myaudio" loop>
+                <source src="../audio/audioBG.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+            <div id = "BRs" data-nrBrs = "2"></div>
             Budapesta
 Pastorii poarta pielea astfel incat par a fi niste oi si duc o iesle facuta de ei pentru micul Iisus.Noaptea de Ajun este numita de maghiari "Szent-este" sau "noapte sfanta". Inainte sa mearga la biserica, pentru slujba de la miezul noptii, familiile se aduna in jurul bradului de Craciun, canta colinde si deschid cadourile.
 
@@ -52,5 +60,26 @@ Pe creasta de vest a lacului, în Hévíz, nu numai că veţi găsi un izvor de 
         <div id = "BRs" data-nrBrs = "0"></div>
         <div id = "footer">123</div>
     </body>
-    
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        
+            </script>
 </html>

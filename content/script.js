@@ -35,7 +35,11 @@ setBrakes = () =>{
 
 const audioAdd = "content/audio/audioBG.mp3";
 
-$(document).ready(function() { 
+$(document).ready(function() {
+        if (window.location.href.search("spages") === -1)
+        {
+            //document.getElementById("myaudio").play();
+        }
         display("works");
         setBrakes();
         //playAudio(audioAdd);
@@ -98,3 +102,24 @@ lc_triggered = (num) => {
     else
         location.replace('content/spages/' + numToPage[num]);
 }
+/*this code is in every page
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+*/
